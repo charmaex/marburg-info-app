@@ -34,3 +34,11 @@ class RoundButton: UIButton {
     }
     
 }
+
+class BackButtonVC: UIViewController {
+    
+    @IBAction func backButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+}
