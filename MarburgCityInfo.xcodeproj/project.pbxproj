@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1385096D1C67B20E00979963 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1385096C1C67B20E00979963 /* PhotosVC.swift */; };
-		1385096F1C67B26500979963 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1385096E1C67B26500979963 /* AboutVC.swift */; };
+		1385096D1C67B20E00979963 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1385096C1C67B20E00979963 /* Controller.swift */; };
 		138509711C67B5F400979963 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138509701C67B5F400979963 /* View.swift */; };
 		138509731C67B82600979963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138509721C67B82600979963 /* LaunchScreen.storyboard */; };
 		1399F1031C676DBE00BF9713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399F1021C676DBE00BF9713 /* AppDelegate.swift */; };
@@ -17,8 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1385096C1C67B20E00979963 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
-		1385096E1C67B26500979963 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		1385096C1C67B20E00979963 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		138509701C67B5F400979963 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		138509721C67B82600979963 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1399F0FF1C676DBE00BF9713 /* MarburgCityInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarburgCityInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,15 +37,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1385096B1C67B1E800979963 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				1385096C1C67B20E00979963 /* PhotosVC.swift */,
-				1385096E1C67B26500979963 /* AboutVC.swift */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
 		1399F0F61C676DBE00BF9713 = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				138509701C67B5F400979963 /* View.swift */,
-				1385096B1C67B1E800979963 /* Controller */,
+				1385096C1C67B20E00979963 /* Controller.swift */,
 				1399F1021C676DBE00BF9713 /* AppDelegate.swift */,
 				1399F1061C676DBE00BF9713 /* Main.storyboard */,
 				138509721C67B82600979963 /* LaunchScreen.storyboard */,
@@ -150,10 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1385096F1C67B26500979963 /* AboutVC.swift in Sources */,
 				138509711C67B5F400979963 /* View.swift in Sources */,
 				1399F1031C676DBE00BF9713 /* AppDelegate.swift in Sources */,
-				1385096D1C67B20E00979963 /* PhotosVC.swift in Sources */,
+				1385096D1C67B20E00979963 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
