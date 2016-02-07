@@ -20,7 +20,7 @@ class ClipToBoundsAndRoundEdges: UIImageView {
 class ClipToBounds: UIImageView {
     
     override func awakeFromNib() {
-        layer.cornerRadius = 8
+        clipsToBounds = true
     }
     
 }
